@@ -51,7 +51,7 @@ with open(path.join(here, 'telepotpro', '__init__.py')) as f:
 setup(
     cmdclass=cmdclass,
 
-    name='telepotpro',
+    name='telepotprom',
     packages=['telepotpro', 'telepotpro.aio'],
     # Do not filter out packages because we need the whole thing during `sdist`.
 
@@ -63,7 +63,7 @@ setup(
 
     long_description='',
 
-    url='https://github.com/pesaventofilippo/telepotpro',
+    url='https://github.com/omssp/telepotprom',
 
     author='Filippo Pesavento',
     author_email='pesaventofilippo@gmail.com',
